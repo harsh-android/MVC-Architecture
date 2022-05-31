@@ -40,6 +40,9 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.bumptech.glide.Glide;
+import com.example.a3idiots.Controller.ILoginController;
+import com.example.a3idiots.Controller.LoginController;
+import com.example.a3idiots.View.ILoginVIew;
 import com.facebook.AccessToken;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
@@ -89,7 +92,11 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements ILoginVIew {
+
+    EditText email,password;
+    Button submit;
+    ILoginController controller;
 
     @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
@@ -97,8 +104,31 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        controller = new LoginController(MainActivity.this);
+
+        email = findViewById(R.id.email);
+        password = findViewById(R.id.password);
+        submit = findViewById(R.id.submit);
+
+        submit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+
+            }
+        });
+
     }
 
+    @Override
+    public void onLoginSuccess(String message) {
+
+    }
+
+    @Override
+    public void onLognFailed(String message) {
+
+    }
 }
 
 
