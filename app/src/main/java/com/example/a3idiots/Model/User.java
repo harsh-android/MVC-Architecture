@@ -31,7 +31,7 @@ public class User implements IUser {
             return 1;
         } else if (TextUtils.isEmpty(getPassword())) {
             return 2;
-        } else if (getPassword().length() > 6) {
+        } else if (getPassword().length() < 6) {
             return 3;
         } else {
             return -1;

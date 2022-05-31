@@ -114,6 +114,7 @@ public class MainActivity extends AppCompatActivity implements ILoginVIew {
             @Override
             public void onClick(View view) {
 
+                controller.OnLogin(email.getText().toString(),password.getText().toString());
 
             }
         });
@@ -122,11 +123,12 @@ public class MainActivity extends AppCompatActivity implements ILoginVIew {
 
     @Override
     public void onLoginSuccess(String message) {
-
+        Toast.makeText(this, "Success : "+message, Toast.LENGTH_SHORT).show();
     }
 
     @Override
     public void onLognFailed(String message) {
+        Toast.makeText(this, "Failed : "+message, Toast.LENGTH_SHORT).show();
 
     }
 }
