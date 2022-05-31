@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "335213671767",
+    "project_id": "idiots-a605f",
+    "storage_bucket": "idiots-a605f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335213671767:android:efb60ff9cc4d68bf143a12",
+        "android_client_info": {
+          "package_name": "com.example.a3idiots"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335213671767-v9vrr8329nu179m5spjhabd4u3ipm0fp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.a3idiots",
+            "certificate_hash": "0de05bc27d87ca244f16ea4e4cb86352db8ba8b6"
+          }
+        },
+        {
+          "client_id": "335213671767-5757m9o798b0n0hlu08hknaco27kls4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiboeATxpWSs7sPgo_J-Nt2E-t-qLukF0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335213671767-5757m9o798b0n0hlu08hknaco27kls4g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

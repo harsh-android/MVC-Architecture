@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">3 Idiots</string>
+    <string name="tips">Tips &amp; Tricks</string>
+    <string name="datas">Test Data</string>
+    <string name="web_client_id">335213671767-5757m9o798b0n0hlu08hknaco27kls4g.apps.googleusercontent.com</string>
+
+
+    <string name="facebook_app_id">1234</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
+
+
+</resources>
